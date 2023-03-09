@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: Pharos-RegisterService
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:5555/pharos.register
+    username: root
+    password: Q1.w2-e3.r4
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate.ddl-auto: update
+    generate-ddl: false
+    show-sql: true
+server:
+  port: 9999
