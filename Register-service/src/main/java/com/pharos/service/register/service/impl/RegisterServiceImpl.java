@@ -1,7 +1,7 @@
 package com.pharos.service.register.service;
 
-import com.service.register.model.Candidate;
-import com.service.register.repository.CandidateRepository;
+import com.pharos.service.register.model.Candidate;
+import com.pharos.service.register.repository.CandidateRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
