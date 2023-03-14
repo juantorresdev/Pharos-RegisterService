@@ -1,10 +1,12 @@
 package com.pharos.service.register.wrapper.response;
 
-public class RegisterResponse {
-
+public class RecoverPasswordResponse {
+    
     private String status;
 
     private String code;
+
+    private String validator;
 
     public String getStatus() {
         return status;
@@ -22,12 +24,22 @@ public class RegisterResponse {
         this.code = code;
     }
 
+    public String getValidator() {
+        return validator;
+    }
+
+    public void setValidator(String validator) {
+        this.validator = validator;
+    }
+
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("RegisterResponse{");
+        final StringBuffer sb = new StringBuffer("RecoverPasswordResponse{");
         sb.append("status='").append(status).append('\'');
         sb.append(", code='").append(code).append('\'');
+        sb.append(", validator='").append(validator).append('\'');
         sb.append('}');
         return sb.toString();
     }
+
 }

@@ -1,4 +1,4 @@
-package com.pharos.service.register.wrappers.request;
+package com.pharos.service.register.wrapper.request;
 
 import java.io.Serializable;
 
